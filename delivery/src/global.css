@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.pointer{
+    cursor: pointer;
+}
+.box-border{
+    border-radius: 5px;
+}
+.table{
+    width: 100%;
+    table-layout: fixed;
+}
+.link{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+/** Navbar **/
+
+.profileImg{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+
+/** statistics box **/
+
+.s-box{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.s-box:nth-child(1){
+    background-color: rgb(255, 96, 39);
+}
+.s-box:nth-child(2){
+    background-color: rgb(255, 182, 47);
+}
+.s-box:nth-child(3){
+    background-color: blueviolet;
+}
+.s-box:nth-child(4){
+    background-color: rgb(30, 185, 30);
+}
+
+/** Delivery Box**/
+
+.e-box{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
